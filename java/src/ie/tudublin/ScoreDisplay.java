@@ -12,7 +12,7 @@ public class ScoreDisplay extends PApplet
 	//String score = "DEF2F2F2EFA2A2B2AFD2E2D2D2D2";
 
 	//create a ArrayList
-	ArrayList<string> note = new ArrayList<string>();
+	//ArrayList<string> note = new ArrayList<string>();
 
 	
 	public void settings()
@@ -33,6 +33,12 @@ public class ScoreDisplay extends PApplet
 	public void draw()
 	{
 		background(255);
+
+		line(100, 100, 900, 100);
+		line(100, 130, 900, 130);
+		line(100, 160, 900, 160);
+		line(100, 190, 900, 190);
+		line(100, 220, 900, 220);
 		
 	}
 
